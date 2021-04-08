@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta lang="ro">
+        <title>Paste It</title>      
+    </head>
+    <body>
+        <article resource="#" typeof="schema:ScholarlyArticle">
+            <header>
+              <h1 property="schema:name">PIt</h1>
+              <p role="doc-subtitle" property="schema:alternateName">
+                Paste IT 
+              </p>
+            </header>
+        </article>
+        <article>
+                <h2 style="margin-top:40px;">Cerințe</h2>
+                <p>
+                    Să se realizeze o aplicație Web prin intermediul căreia să se poată distribui cod sursă (scris intr-un anumit limbaj de programare). Vor putea 
+                    posta atât utilizatorii autentificați, cât și utilizatorii anonimi. </p> 
+                    <ul>
+                    <li>
+                    Pentru utilizatorii autentificați: 
+                    <ul>
+                    <li>managementul propriilor postări (se vor putea edita și șterge postările anterioare sau atașarea de diverse atribute)</li>
+                    <li>posibilitatea de selectare a altor utilizatori ce au voie să modifice postarea - și menținerea unui history pentru a face un rollback la versiuni anterioare</li>
+                    <li>opțiuni suplimentare precum "burn after read", "password protected" sau "confirmare citire - va putea afla cine a citit postarea" (sau orice alta optiune care vi se pare interesanta)</li>
+                    </ul>
+                    </li>
+                    <li>
+                    Pentru utilizatorii neautentificați: 
+                    <ul>
+                    <li>postările vor fi făcute doar public și doar după ce au răspuns corect la o problemă de tip <a href="https://www.imperva.com/learn/application-security/what-is-captcha/">Captcha</a></li>
+                    <li>postări menținute maxim 30 de zile</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    Codurile trebuie să fie colorate conform unui dicționar (sintax highlighting); dicționarul (limbajul) va fi selectat de cel ce a făcut postarea.<br />
+                    Codul va fi menținut un număr de zile (stabilit de utilizatorul ce a postat).<br />
+                    Alte opțiuni și idei sunt binevenite.
+                    <p><a href="https://profs.info.uaic.ro/~vcosmin/proiectetw">Tema propusă de Lector Doctor Cosmin Vârlan.</a></p>
+        </article>      
+        <div>
+        <section typeof="sa:ContributorRole">
+            <h2>Colaboratori</h2>
+            <ul>
+                <li typeof="sa:ContributorRole" property="schema:author">
+                <span typeof="schema:Person">
+                    <meta property="schema:givenName" content="Alexandru">
+                    <meta property="schema:familyName" content="Tarcan">
+                    <span property="schema:name">Alexandru Tarcan</span>
+                </span>
+                <ul>
+                    <li property="schema:roleContactPoint" typeof="schema:ContactPoint">
+                    <a href="mailto:alexandru_tarcan@yahoo.com"
+                        property="schema:email">alexandru_tarcan@yahoo.com</a>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+            <ul>
+                <li typeof="sa:ContributorRole" property="schema:author">
+                    <span typeof="schema:Person">
+                    <meta property="schema:givenName" content="Dragos">
+                    <meta property="schema:familyName" content="Popa">
+                    <span property="schema:name">Dragoș Popa</span>
+                    </span>
+                    <ul>
+                    <li property="schema:roleContactPoint" typeof="schema:ContactPoint">
+                        <a href="mailto:dragos_popa@yahoo.com"
+                            property="schema:email">dragos_popa@yahoo.com</a>
+                    </li>
+                    </ul>
+                </li>
+                </ul>
+            </section>
+            <section typeof="sa:Affiliations">
+            <h2>Studenți</h2>
+            <ul>
+                <li id="sa">
+                <span typeof="schema:Organization" resource="https://www.info.uaic.ro/">
+                    <span property="schema:name">Facultatea de Informatică</span>,
+                    <span property="schema:parentOrganization">
+                    <span typeof="schema:Organization">
+                        <span property="schema:name">Universitatea Alexandru Iona Cuza</span>
+                        —
+                        <span property="schema:location" typeof="schema:Place">
+                        <span property="schema:address" typeof="schema:PostalAddress">
+                            <span property="schema:addressLocality">Iași</span>,
+                            <span property="schema:addressCountry">România</span>
+                        </span>
+                        </span>
+                    </span>
+                    </span>
+                </span>
+                </li>
+            </ul>
+        </section>
+        </div>     
+    </body>
+</html>
