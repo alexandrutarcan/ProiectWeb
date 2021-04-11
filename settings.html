@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style type="text/css">
+
+</style>
+    <meta charset="utf-8">
+    <meta name="description" edit="Update your settings.">
+    <meta name="keywords" edit="share code">
+    <meta name="author" edit="Alex&Dragos">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
+    <title>Settings - Paste IT</title>
+  </head>
+  <body>
+    <div id="main">
+
+      <div style="text-align: center;">
+        <a href="index1.html">
+          <svg width="100" height="110" viewBox="0 0 120 120>
+            <g stroke-width="1.2" fill="none" fill-rule="evenodd">
+            <rect width="90" height="100" 
+            style="fill:rgb(0, 0, 0);stroke-width:3;stroke:rgb(255,255,255); transform: translateY(3%); " />
+            <line x1="30" y1="0"  x2="60" y2="0" style = "stroke:white;stroke-width:10; transform: translateY(3%);" />
+            <line x1="40" y1="40"  x2="50" y2="40" style = "stroke:white;stroke-width:2; transform: translateY(3%);" />
+            <line x1="35" y1="50"  x2="55" y2="50" style = "stroke:white;stroke-width:2; transform: translateY(3%);" />
+            <line x1="30" y1="60"  x2="60" y2="60" style = "stroke:white;stroke-width:2; transform: translateY(3%);" />
+            <line x1="20" y1="80"  x2="70" y2="80" style = "stroke:white;stroke-width:2;transform: translateY(3%);" />
+            <line x1="15" y1="90"  x2="75" y2="90" style = "stroke:white;stroke-width:2; transform: translateY(3%);" />
+            
+            
+            <line x1="20" y1="20"  x2="20" y2="70" style = "stroke:#2C84FA;stroke-width:6; " />
+            <line x1="17" y1="70"  x2="73" y2="70" style = "stroke:#2C84FA;stroke-width:6; " />
+            <line x1="70" y1="70"  x2="70" y2="20" style = "stroke:#2C84FA;stroke-width:6; " />               
+            <line x1="17" y1="20"  x2="35" y2="20" style = "stroke:#2C84FA;stroke-width:6; " />
+            <line x1="57" y1="20"  x2="73" y2="20" style = "stroke:#2C84FA;stroke-width:6; " />
+            <circle cx = "44" cy = "18" r = "6" fill = "red" />
+            <line x1="57" y1="10"  x2="57" y2="30" style = "stroke:#2C84FA;stroke-width:6; " />
+             Paste IT together
+          </g>
+          </svg>
+        </a>
+      </div>
+
+      <div class="message">
+         <p><b>PASTE's Settings</b></p>
+      </div>
+
+      <form  method="post" accept-charset="utf-8">
+        <fieldset>        
+        <input type="hidden"/>
+          <div class="fieldLogin">
+          <label>Title</label>
+          <input id="id_username" type="text"  name="email"   maxlength="100"   minlength="2"     value=""  autofocus>
+          </div>
+          <div class="fieldLogin">
+          <label>Password</label>
+          <input id="id_password" type="password"  name="password">   
+        </div>
+        <hr>
+        <p>Status: <form action="/action_page.php">
+        <select name="status" id="status">
+        <option value="Friends">Friends</option>
+        <option value="Private">Private</option>
+        <option value="Public">Public</option></p>
+        </select>
+        <hr>
+        <div class="fieldLogin">
+          <br>
+          <p >Paste Expiration:<input id="id_expiration" type="text"  name="expiration"></p> 
+          <p >Days<input type="radio" id="days" name="duration" value="days"></p>
+          <p >Months<input type="radio" id="months" name="duration" value="months"></p>
+         </div>
+         <hr>
+         <div class="fieldLogin">
+         <p class="margin">Burn After Read <input type="checkbox"></p>
+        </div>
+        <div class="fieldLogin">
+        <p class="margin">Read Confirmation</p> <input type="checkbox">
+        </div>
+    </fieldset>
+        <div class="buttonLogin">
+          <input type="submit" value="Save">
+        </div>
+    </form>
+    </div>
+  </body>
+</html>
