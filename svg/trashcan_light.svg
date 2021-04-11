@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg width="48" height="48">
+
+  
+  <rect width="46" height="46" 
+          style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(255, 255, 255) " />
+  
+  <rect x="10" y="5" rx="3" ry="3" width="26" height="10"
+  style="fill:#fddf68;stroke:white;stroke-width:1;opacity:1" />
+   <rect x="15" y="8" rx="3" ry="3" width="17" height="5"
+  style="fill:white;stroke:white;stroke-width:1;opacity:1" />
+   <rect x="4" y="10" rx="3" ry="3" width="40" height="5"
+  style="fill:#fddf68;stroke:white;stroke-width:1;opacity:1" />
+   <polygon points="7,15 40,15 36,46 13,46" style="fill:#fddf68;stroke-width:3" />
+   
+  
+Sorry, your browser does not support inline SVG.
+</svg>
+ 
+</body>
+</html>

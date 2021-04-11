@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg width="48" height="48">
+
+  
+  <rect width="90" height="110" 
+            style="fill:rgb(255, 255, 255);stroke-width:3;stroke:rgb(255,255,255) " />
+  
+   <line x1="24" y1="3"  x2="24" y2="45" style = "stroke:red;stroke-width:14;" />
+   <line x1="6" y1="12"  x2="43" y2="36" style = "stroke:red;stroke-width:14;" />
+   <line x1="6" y1="36"  x2="42" y2="12" style = "stroke:red;stroke-width:14;" />
+   <circle cx="24" cy="24" r = "17" fill = "red" />
+   <circle cx="24" cy="24" r = "10" fill = "white" />
+Sorry, your browser does not support inline SVG.
+</svg>
+ 
+</body>
+</html>

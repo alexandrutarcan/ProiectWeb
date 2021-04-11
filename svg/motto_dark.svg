@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<svg   xmlns="http://www.w3.org/2000/svg" width="120" height="110"> 
+            <style>
+                .small { font: bold 15px sans-serif;fill: white; }
+                .heavy { font: bold 20px sans-serif;fill: white; }
+                .red_italic { font: italic 30px serif; fill: red; }
+              </style>
+              <text x="5" y="30" class="red_italic">Together</text>
+              <text x="0" y="30" class="heavy">IT</text>
+              <text x="20" y="20"  class="small">PASTE</text>
+          </svg>  
+</body>
+</html>
