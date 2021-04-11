@@ -1,0 +1,170 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  align-items: stretch;
+  font-weight:normal;
+  text-align: left;
+}
+.wrapper-inside{
+  display: flex;
+  flex-flow: column wrap;
+}
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  display: flex;  
+  flex-flow: row wrap;
+  justify-content:first baseline;
+  padding:0;
+  margin-top: 0.5em;
+}
+.loginOption {
+  font-size: 1.5em; 
+  padding: 1.5em;
+  color:#2C84FA;
+}
+.menu{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0.5em;
+  z-index: 255;
+  text-align: right;
+}
+
+.footer {
+  background: #0D1117;
+  border-top: 0.5em;
+  color:red;
+}
+p{
+  font-family:sans-serif, Arial, Helvetica, Verdana, Tahoma;
+}
+.main {
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace, 'Lucida Console';
+  
+}
+.latest{
+  color: #168600;
+  font-weight:bold;
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: left;
+  font-family:sans-serif, Arial, Helvetica, Verdana, Tahoma;
+  margin-top: 0;
+}
+li{
+  color:#20a805;
+}
+.side-left {
+  background:#161b22;
+  text-align: left;
+}
+
+hr{
+  border: 1px solid #0D1117;
+}
+
+a {
+  color: #2C84FA;
+  text-decoration-line: none;
+}
+a:visited {
+  color: #2C84FA;
+  text-decoration-line: none;
+}
+a:hover{
+    color:#fbfbfb;
+    text-decoration-line: none;
+
+}
+button{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: none;
+  background: #0D1117;
+}
+button:hover{
+  cursor: pointer; 
+}
+
+.search_file{
+  margin-top: 0px;
+  height: 2em;
+  width: 100%;
+  color: #fbfbfb;
+  cursor: pointer;
+  text-align: left;
+  font-style: italic;
+  padding: 0 ;
+  margin:0;
+  background:  #168600;
+  font-size: 12px;
+  text-decoration: none;
+  border: 0;
+  background-color: ;
+  outline: none;
+  text-align: left;
+}
+@media all and (min-width: 600px) {
+  .side { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .wrapper-inside    { flex: 3 0px; }
+  .side-left { order: 1; } 
+  .wrapper-inside    { order: 2; }
+  .side-right { order: 3; }
+  .footer  { order: 4; }
+}
+
+body {
+  font-family:sans-serif, Arial, Helvetica, Verdana, Tahoma;
+  padding: 0; 
+  margin:0;
+  background: #0D1117;
+  color: #fbfbfb;
+}
+.scalling-svg-container {
+ position: relative; 
+ height: 0; 
+ width: 30%; 
+ margin:0;
+ padding: 0;
+ padding-bottom: 100%; 
+ /* override this inline for aspect ratio other than square */
+}
+.scalling-svg {
+ position: absolute; 
+ height: 100%; 
+ width: 100%; 
+ left: 0; 
+ padding: 0;
+ top: 0;
+}
+.small { 
+  font: bold 20px sans-serif;
+  fill: white;
+ }
+.heavy { 
+  font: bold 35px sans-serif;
+  fill: white; 
+}
+.red_italic { 
+  font: italic 70px serif; 
+  fill:#2C84FA; 
+}
+.red_normal { 
+  font: 70px serif; 
+  fill:#2C84FA;
+ }
+
+/* dark theme */
+@media screen and (prefers-color-scheme: dark) {
+}
